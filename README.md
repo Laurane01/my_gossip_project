@@ -1,24 +1,29 @@
-# README
+## 3/3
+# Bienvenue dans notre application de gossips !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Moussaillons aux commandes : 
 
-Things you may want to cover:
+Laurane Petit - @Laurane
+Mallaury Bajas - @Mallau
 
-* Ruby version
+# Pour lancer notre projet
+* clone nos repo sur ton ordinateur
+* execute un bundle install
+* execute la commande rails db:migrate
+* execute la gem seed : rails db:seed
+* navigue a travers notre projet
 
-* System dependencies
 
-* Configuration
+# Nos réalisations
 
-* Database creation
+* Nous avons réaliser trois applications qui sont chacune organisée dans un repository GitHub
 
-* Database initialization
+- base de données regroupant les docteurs et leurs patients avec toutes les informations nécessaires à la prise de RDV !
 
-* How to run the test suite
+- base de données regroupant les personnes qui veulent faire promener leur chien par des dog-sitter ! 
 
-* Services (job queues, cache servers, search engines, etc.)
+- base de données pour alimenter l'application The Gossip Project !
 
-* Deployment instructions
 
-* ...
+
+![texte_présentatif](http://idata.over-blog.com/5/08/25/70/2013/Ralph-Wiggum-Paques.gif)
