@@ -13,8 +13,8 @@ require 'faker'
 end
 
 10.times do |user|
-  user = User.create!(first_name: Faker::DragonBall.character, last_name: Faker::DragonBall.character, descriptiom: Faker::HarryPotter.character, email: Faker::HarryPotter.character, age: (rand(0..100)), city: City.all.sample)
-	puts "User : #{user.first_name} | #{user.last_name} | #{user.descriptiom} | #{user.email} | #{user.age}"
+  user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, description: Faker::Lorem.sentence, email: Faker::Internet.email, age: (rand(0..100)), city: City.all.sample, city_id: (rand(1..10)))
+	puts "User : #{user.first_name} | #{user.last_name} | #{user.description} | #{user.email} | #{user.age}"
 end
 
 20.times do |gossip|
